@@ -1,0 +1,12 @@
+CDSP repository on the web : https://github.com/tlvmedia/cdsp2
+each user should create a fork of their own and try to work on their fork
+------------------------------------------------------------
+merging/syncing  your fork after the main has many changes
+git clone "your fork git"
+git remote add upstream "the main fork source"
+git fetch upstream
+git checkout master
+git merge upstream/master
+-----------------------------------------------------------------
+going back to a certain commit 
+git reset --hard <SHAsum of your commit>
